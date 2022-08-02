@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'trivi-app';
+  title = 'Bienvenido a Angular';
+  
+  curso: String ='curso spring 5 con Angular ';
+  
+  realizacion: String='Esteban Arturo';
 }

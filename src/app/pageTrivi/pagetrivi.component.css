@@ -1,0 +1,11 @@
+section {
+  
+    float: right;
+    width: 50%;
+    color: #7209b7;
+    border-radius: 6px;
+    /*box-shadow: sirve para agregar una sobra al componente   */
+    box-shadow: 1px 0 4px rgb(0, 0, 0,.5);
+    margin-bottom: 15px;
+    padding: 15px;
+  }

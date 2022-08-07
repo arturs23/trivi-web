@@ -1,11 +1,69 @@
+/*
 section {
   
     float: right;
     width: 50%;
     color: #7209b7;
     border-radius: 6px;
-    /*box-shadow: sirve para agregar una sobra al componente   */
     box-shadow: 1px 0 4px rgb(0, 0, 0,.5);
     margin-bottom: 15px;
     padding: 15px;
   }
+ */
+.banner {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(/assets/img/fondo.png);
+  background-size: 100% 100%;
+  
+  /*background-attachment: fixed;*/
+
+}
+
+.content {
+  padding: 120px 100px;
+
+}
+
+#cajaflotante {
+
+  /*float: right;
+  bottom: 50px;
+  right: 40px;
+  margin: 300px;*/
+  cursor: pointer;
+  width: 65%;
+  height: 24%;
+  border-radius: 19px;
+  background-color: white;
+  margin-bottom: -201px;
+  padding: 24px;
+  right: 500px;
+  
+}
+.botton1{
+
+ background-color: brown;
+ color: azure;
+ background-size: 10px;
+
+}
+
+#cajaflotante:hover {
+  box-shadow: 10px 10px 0px 0px rgb(110, 49, 49);
+}
+
+.display-1 {
+  font-size: 3rem;
+}
+
+@media(min-width: 576px) {
+  .display-1 {
+    font-size: 6rem;
+  }
+
+  .section-content {
+    padding: 100 px 0;
+  }
+}
